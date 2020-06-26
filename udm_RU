@@ -1,0 +1,76 @@
+comment_char %
+escape_char /
+
+% Udmurt Language Locale for Russia
+% Language: udm
+% Territory: RU
+% Application: general
+% Users: general
+
+% TODO: Implement all the field.
+
+LC_IDENTIFICATION
+  title      "Udmurt Language Locale for Russia"
+  language   "Udmurt"
+  territory  "Russia"
+
+  category "i18n:2012";LC_IDENTIFICATION
+  category "i18n:2012";LC_CTYPE
+  category "i18n:2012";LC_COLLATE
+  category "i18n:2012";LC_MESSAGES
+  category "i18n:2012";LC_MONETARY
+  category "i18n:2012";LC_NUMERIC
+  category "i18n:2012";LC_TIME
+  category "i18n:2012";LC_ADDRESS
+  category "i18n:2012";LC_MEASUREMENT
+  category "i18n:2012";LC_NAME
+  category "i18n:2012";LC_PAPER
+  category "i18n:2012";LC_TELEPHONE
+END LC_IDENTIFICATION
+
+LC_CTYPE
+  copy "ru_RU"
+END LC_CTYPE
+
+LC_COLLATE
+  copy "ru_RU"
+END LC_COLLATE
+
+LC_MESSAGES
+  yesexpr "^[+1Yy<U0411><U0431>]"
+  noexpr  "^[-0Nn<U04E6><U04E7>]"
+  yesstr  "<U0431><U0435><U043D>"
+  nostr   "<U04E7><U0432><U04E7><U043B>"
+END LC_MESSAGES
+
+LC_MONETARY
+  copy "ru_RU"
+END LC_MONETARY
+
+LC_NUMERIC
+  copy "ru_RU"
+END LC_NUMERIC
+
+LC_TIME
+  copy "ru_RU"
+END LC_TIME
+
+LC_ADDRESS
+  copy "ru_RU"
+END LC_ADDRESS
+
+LC_MEASUREMENT
+  copy "ru_RU"
+END LC_MEASUREMENT
+
+LC_NAME
+  copy "ru_RU"
+END LC_NAME
+
+LC_PAPER
+  copy "ru_RU"
+END LC_PAPER
+
+LC_TELEPHONE
+  copy "ru_RU"
+END LC_TELEPHONE
